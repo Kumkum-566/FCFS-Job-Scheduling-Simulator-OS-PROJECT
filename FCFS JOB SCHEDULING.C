@@ -3,6 +3,7 @@
 #include <stdlib.h> 
 #include <sys/wait.h> 
 
+
 struct Process {
     int id;             
     int arrivalTime;    
