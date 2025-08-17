@@ -45,5 +45,3 @@ The program demonstrates fundamental concepts of operating systems, process mana
 * **`struct Process`:** Defines a structure to hold information for each student/process, including `id`, `arrivalTime`, `burstTime`, `completionTime`, `turnaroundTime`, and `waitingTime`.
 * **`calculateTimes()`:** This function is where the FCFS logic is implemented. It iterates through the processes and calculates the completion, turnaround, and waiting times for each.
 * **`main()`:** The main function handles user interaction, sorts the processes by arrival time, and uses `fork()` and `pipe()` for process communication. The child process (`pid == 0`) performs the calculations, while the parent process (`pid > 0`) receives the results and displays the final output.
-
-This project serves as an effective demonstration of process scheduling fundamentals and is a great asset for a technical portfolio.
